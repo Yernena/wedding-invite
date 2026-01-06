@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const HALDI_MAP =
-  "https://www.google.com/maps/place/Hanuman+Temple,+Turakapeta/@18.4387376,83.8501575";
+  "https://maps.app.goo.gl/FAyKqchRLYyAbXqv7";
 
 const GROOM_MAP =
   "https://www.google.com/maps/place/Niddam,+Srikakulam,+Andhra+Pradesh";
@@ -10,17 +10,17 @@ const events = [
   {
     title: "🌼 Haldi",
     time: "5 March 2026 · 3:00 PM",
-    venue: "Hanuman Temple, Turakapeta",
+    venue: "Turakapeta, Srikakulam",
     map: HALDI_MAP,
   },
   {
-    title: "🎶 Raata (Bride)",
+    title: "🌴 Raata (Bride)",
     time: "6 March 2026 · Morning",
-    venue: "Hanuman Temple, Turakapeta",
+    venue: "Turakapeta, Srikakulam",
     map: HALDI_MAP,
   },
   {
-    title: "🎶 Raata (Groom)",
+    title: "🌴 Raata (Groom)",
     time: "6 March 2026 · Morning",
     venue: "Niddam Village, Srikakulam",
     map: GROOM_MAP,
