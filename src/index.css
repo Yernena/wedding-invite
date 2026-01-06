@@ -81,3 +81,39 @@ p {
     background-attachment: scroll;
   }
 }
+
+.couple-card {
+  position: relative;              /* 🔥 REQUIRED */
+  transition: transform 0.3s ease;
+}
+
+.couple-card:hover {
+  transform: translateY(-6px);
+}
+
+.couple-heart {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  font-size: 22px;
+  opacity: 0;
+  z-index: 10;                     /* 🔥 REQUIRED */
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: scale(0.8);
+}
+
+.couple-card:hover .couple-heart {
+  opacity: 1;
+  transform: scale(1);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+
