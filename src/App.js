@@ -7,6 +7,7 @@ import Gallery from "./components/Gallery";
 import Venue from "./components/Venue";
 import Wishes from "./components/Wishes";
 import Footer from "./components/Footer";
+import ReelGallery from "./components/ReelGallery";
 
 function App() {
   return (
@@ -16,11 +17,14 @@ function App() {
       <MusicPlayer />
 
       {/* Main Story */}
-      <Hero />
-      <Couple />
+      <div className="couple-bg-section">
+        <Hero />
+        <Couple />
+        <ReelGallery />
+      </div>
       <Events />
-      <Gallery />
-      <Venue />
+      {/* <Gallery /> */}
+      {/* <Venue /> */}
       <Wishes />
       <Footer />
     </>

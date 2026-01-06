@@ -54,3 +54,30 @@ p {
   padding: 40px;
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4);
 }
+
+.couple-bg-section {
+  position: relative;
+  background-image: url("./assets/couple-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.couple-bg-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55); /* dark overlay */
+  backdrop-filter: blur(2px);
+}
+
+.couple-bg-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .couple-bg-section {
+    background-attachment: scroll;
+  }
+}
