@@ -60,24 +60,29 @@ export default function Events() {
           transition={{ duration: 0.6, delay: i * 0.1 }}
           style={{ marginBottom: 40 }}
         >
-          <h3 style={{ fontSize: 28 }}>{e.title}</h3>
-          <p>{e.time}</p>
-          <p style={{ color: "#b9a37c" }}>{e.venue}</p>
+          <h3 style={{ fontSize: 28, color: "#ffffff" }}>{e.title}</h3>
 
+          <p style={{ color: "rgba(255,255,255,0.75)" }}>{e.time}</p>
+
+          {/* 🔥 FIXED GOOGLE LOCATION VISIBILITY */}
           <a
             href={e.map}
             target="_blank"
             rel="noreferrer"
             style={{
-              display: "inline-block",
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
               marginTop: 12,
               textDecoration: "none",
-              color: "#2b2b2b",
-              borderBottom: "1px solid #b9a37c",
-              paddingBottom: 2,
+              color: "#FFD700",                 // BRIGHT GOLD
+              fontSize: 17,
+              fontWeight: 600,
+              textShadow: "0 0 6px rgba(255,215,0,0.35)", // glow
             }}
           >
-            📍 View on Google Maps
+            <span style={{ fontSize: 18 }}>📍</span>
+            <span>{e.venue}</span>
           </a>
         </motion.div>
       ))}
