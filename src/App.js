@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import PetalRain from "./components/PetalRain";
+import MusicPlayer from "./components/MusicPlayer";
+import Hero from "./components/Hero";
+import Couple from "./components/Couple";
+import Events from "./components/Events";
+import Gallery from "./components/Gallery";
+import Venue from "./components/Venue";
+import Wishes from "./components/Wishes";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* Background Effects */}
+      <PetalRain />
+      <MusicPlayer />
+
+      {/* Main Story */}
+      <Hero />
+      <Couple />
+      <Events />
+      <Gallery />
+      <Venue />
+      <Wishes />
+      <Footer />
+    </>
   );
 }
 
