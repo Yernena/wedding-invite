@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/wedding-invite/static/css/main.cad5e57e.css",
+    "main.css": "/wedding-invite/static/css/main.a34295fe.css",
     "main.js": "/wedding-invite/static/js/main.98270683.js",
     "static/media/bride.jpg": "/wedding-invite/static/media/bride.5a9b852f93534c7506fa.jpg",
     "static/media/groom.jpg": "/wedding-invite/static/media/groom.5a9b852f93534c7506fa.jpg",
     "static/media/music.mp3": "/wedding-invite/static/media/music.3b70bf67e521170a6c50.mp3",
     "static/media/couple1.gif": "/wedding-invite/static/media/couple1.fe9fce311067ed28d4b3.gif",
+    "static/media/couple-bg.jpg": "/wedding-invite/static/media/couple-bg.637a1be47e56d270687f.jpg",
     "static/media/couple2.gif": "/wedding-invite/static/media/couple2.9f8983218e6795ded1d2.gif",
     "static/media/reel1.jpg": "/wedding-invite/static/media/reel1.918d7631cc9b51e520f3.jpg",
-    "static/media/couple-bg.jpg": "/wedding-invite/static/media/couple-bg.02b13d598a0d775ed89f.jpg",
     "static/media/reel2.jpg": "/wedding-invite/static/media/reel2.debc517c93073113b81d.jpg",
     "static/media/reel3.jpg": "/wedding-invite/static/media/reel3.28b4f5605cea53b495d3.jpg",
     "static/media/reel10.jpg": "/wedding-invite/static/media/reel10.baeb06bfe7779bcc33b0.jpg",
@@ -24,11 +24,11 @@
     "static/media/reel6.jpg": "/wedding-invite/static/media/reel6.fe4768826774a02413e0.jpg",
     "static/media/reel14.jpg": "/wedding-invite/static/media/reel14.62e08d2c4b1d2ac2dc11.jpg",
     "index.html": "/wedding-invite/index.html",
-    "main.cad5e57e.css.map": "/wedding-invite/static/css/main.cad5e57e.css.map",
+    "main.a34295fe.css.map": "/wedding-invite/static/css/main.a34295fe.css.map",
     "main.98270683.js.map": "/wedding-invite/static/js/main.98270683.js.map"
   },
   "entrypoints": [
-    "static/css/main.cad5e57e.css",
+    "static/css/main.a34295fe.css",
     "static/js/main.98270683.js"
   ]
 }
